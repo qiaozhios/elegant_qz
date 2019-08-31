@@ -57,22 +57,22 @@ var tipuesearch_related = {'Related': [
 
 // Internal strings
 
-var tipuesearch_string_1 = 'No title';
-var tipuesearch_string_2 = 'Showing results for';
-var tipuesearch_string_3 = 'Search instead for';
-var tipuesearch_string_4 = '1 result';
-var tipuesearch_string_5 = 'results';
+var tipuesearch_string_1 = '没有标题';
+var tipuesearch_string_2 = '搜索结果 - ';
+var tipuesearch_string_3 = '搜索替代 - ';
+var tipuesearch_string_4 = '一个搜索结果';
+var tipuesearch_string_5 = '搜索结果';
 var tipuesearch_string_6 = '<';
 var tipuesearch_string_7 = '>';
-var tipuesearch_string_8 = 'Nothing found.';
-var tipuesearch_string_9 = 'Common words are largely ignored.';
-var tipuesearch_string_10 = 'Related';
-var tipuesearch_string_11 = 'Search should be one character or more.';
-var tipuesearch_string_12 = 'Search should be';
+var tipuesearch_string_8 = '没有搜索结果。';
+var tipuesearch_string_9 = '关键字太长已忽略';
+var tipuesearch_string_10 = '相关的';
+var tipuesearch_string_11 = '搜索关键字至少需要一个字符。';
+var tipuesearch_string_12 = '关键字应该';
 var tipuesearch_string_13 = 'characters or more.';
-var tipuesearch_string_14 = 'seconds';
-var tipuesearch_string_15 = 'Open Image';
-var tipuesearch_string_16 = 'Goto Page';
+var tipuesearch_string_14 = '秒';
+var tipuesearch_string_15 = '打开图片';
+var tipuesearch_string_16 = '跳转到';
 
 
 // Internals
