@@ -1,6 +1,6 @@
 {% macro comments_section(article) %}
 
-    {% from '_includes/_defaults.html' import DISQUS_FILTER, UTTERANCES_FILTER with context %}
+    {% from '_includes/_defaults.html' import DISQUS_FILTER, UTTERANCES_FILTER, GITALK with context %}
 
     {% set use_disqus = (not DISQUS_FILTER or article.disqus_filter == "off") and DISQUS_SITENAME and article.disqus_filter != "on" %}
 
@@ -23,7 +23,7 @@
     {% if article.status != 'draft' and article.comments != 'False' and (use_disqus or use_utterances) %}
 
         <section>
-            <h6 style="display:none;">Comments</h6>
+            <h6 style="display:none;">评论</h6>
             <p id="comment-message">{{ intro }} </p>
 
             <div class="accordion" id="accordion2">
